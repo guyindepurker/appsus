@@ -1,0 +1,79 @@
+.book-details {
+    background-color: #ececec;
+    text-align: center;
+    padding: 20px;
+  }
+ 
+  .book-details .img-book-details {
+    width: 200px;
+    border-radius: 5px;
+    border: 4px solid white;
+  }
+ 
+  .book-details .sale-desc-img {
+    width: 150px;
+    opacity: 0.5;
+   
+  }
+  .book-details h3,
+  h2,
+  h4 {
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+  .book-details .title-details {
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-right: 0.3125rem;
+  }
+   .btn-close {
+    transition-duration: 0.3s;
+    color: #fff;
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+  }
+  .book-details .btn-close:hover {
+    color: rgba(0, 0, 0, 0.837);
+    background-color: transparent;
+  }
+  /* REVIEWS */
+  .rates-container{
+    background-color: #424242;
+    margin: 10px;
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .rates-container *{
+    margin-bottom: 10px;
+  }
+  .review-comment{
+    letter-spacing: 1px;
+    color: blanchedalmond;
+    text-transform: capitalize;
+    }
+    strong{
+      margin-right: 5px;
+    }
+
+    @media (max-width:800px){
+      .book-details-container{
+        flex-flow: column-reverse wrap;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    @media (max-width:500px){
+      #review-text{
+        width: 100%;
+      }
+      .reviews input[type="text"]{
+        width: 100%;
+        border: none;
+        padding: 0.3125rem;
+      }
+      .reviews input[type="date"]{
+        width: 100%;
+      }
+    }

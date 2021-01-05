@@ -1,0 +1,16 @@
+.add-book {
+  height: 100vh;
+  
+}
+.results-container{
+  border: 1px solid #b9b0b0cc;
+    width: fit-content;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.results-container li{
+  padding: 0 30px;
+}
+.results-container li:not(:last-child){
+  border-bottom: 1px solid lightgrey;
+}

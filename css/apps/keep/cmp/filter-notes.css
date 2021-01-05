@@ -1,0 +1,25 @@
+.filter-notes input {
+    margin-right: 0.5rem;
+}
+
+.filter-notes select,
+.filter-notes input {
+    border: 0;
+    outline: 0;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: rgba(48, 47, 47, 0.8);
+    box-shadow: 0px 0px 3px 0px rgba(48, 47, 47, 0.75);
+}
+
+.filter-notes select option {
+    outline: 0;
+    border: 0;
+}
+
+.filter-notes {
+    display: flex;
+    justify-content: center;
+}

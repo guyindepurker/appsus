@@ -1,0 +1,41 @@
+.app-header{
+    background-color:#F8F9FA;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.main-nav *{
+margin-right: 0.3125rem;
+}
+.logo-svg{
+    width: 3.125rem;
+}
+.main-nav .nav-icon-header:hover{
+    color: #cad5e8 ;
+  
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    color:#202224;
+    text-shadow: 1px 0px 0px #1a73e8cc;
+}
+.word-blue{
+    color:#4B8AF4;
+}
+.word-red{
+    color:#DF5347;
+}
+.word-yellow{
+    color:#FFCE42;
+}
+.word-green{
+    color:#18A360
+}
+.app-header .nav-icon-header{
+    font-size: 2rem;
+}
+.app-header a.router-link-active {
+    font-weight: bolder;
+  }

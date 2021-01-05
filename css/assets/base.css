@@ -1,0 +1,49 @@
+/* Basics */
+
+* {
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0.3125rem 0;
+}
+html {
+    font-size: 16px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    color: rgb(57, 56, 56);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh
+}
+
+.main-content {
+    height: 100%;
+}
+
+button {
+    cursor: pointer !important;
+    border: none;
+}
+button:focus{
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(57, 56, 56);
+    transition-duration: 0.3s;
+    font-weight: 400;
+}
+
+a:hover {
+    color: rgb(33, 31, 31);
+}
+i{
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.colors-container {
+    position: absolute;
+    bottom: 20px;
+    left: -40px;
+    padding: 0.5rem;
+}
+
+.colors-container .color {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(54, 53, 53);
+    transition: all .3s;
+    margin-inline-start: 2px;
+}
+
+.colors-container .color:hover {
+    transform: scale(1.1);
+}

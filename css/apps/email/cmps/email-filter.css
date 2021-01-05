@@ -1,0 +1,35 @@
+.search-mail{
+    flex-grow: 1;
+    outline: unset;
+    border: unset;
+    background-color: #f1f3f4;
+    border-radius: 5px;
+    max-width: 600px;
+    height: 50px;
+    padding: 20px;
+}
+.search-mail:focus{
+    border: 1px solid lightgray;
+    background-color: #f4f4f4;
+
+}
+.sort-msg{
+    cursor: pointer;
+    background-color: #f1f3f4;
+    color: rgb(58, 58, 58);
+    border-radius: 5px;
+    border: none;
+    margin-left: 2px;
+}
+.sort-msg:focus{
+    outline: none;
+}
+.email-filter{
+    margin-bottom: 0.75rem;
+}
+
+@media (max-width:828px){
+    .search-mail{
+        flex-grow: 0;
+    }
+}

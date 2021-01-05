@@ -1,0 +1,30 @@
+.note-controls {
+    display: flex;
+    align-self: center;
+    margin-top: 1rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.note-controls button {
+    margin: 0.2rem;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #202124;
+    opacity: .71;
+    transition: transform 0.3s;
+}
+
+.note-controls button:hover {
+    transform: scale(1.1);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .3s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}

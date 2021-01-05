@@ -1,0 +1,7 @@
+.note img {
+    width: 100%;
+    max-inline-size: -webkit-fill-available;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-self: center;
+}

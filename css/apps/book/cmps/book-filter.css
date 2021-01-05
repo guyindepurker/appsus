@@ -1,0 +1,27 @@
+.book-filter {
+    padding: 20px 0;
+    margin-bottom: 1rem;
+    background-color: #2a2a2a;
+    color: white;
+  }
+
+  .book-filter .book-controls {
+    min-height: 50px;
+  }
+  .book-filter .book-controls * {
+    margin-right: 10px;
+  }
+  .book-filter button {
+    color: white;
+  }
+  .book-filter button:hover {
+    background-color: #ffc107c8;
+    border: 1px solid #ffc107c8;
+  }
+  .book-filter input[type="text"] {
+    background-color: rgb(68, 68, 68);
+    color: rgb(120, 120, 120);
+    text-transform: capitalize;
+    padding: 5px 2px;
+    border: none;
+  }

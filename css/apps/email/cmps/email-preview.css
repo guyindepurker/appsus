@@ -1,0 +1,63 @@
+.email-preview {
+    background-color: white;
+    padding: 0.3125rem 0;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+    max-height: 1.875rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.email-preview:hover {
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    z-index: 1;
+}
+
+.email-sender {
+    min-width: 8.125rem;
+    margin-left: 1rem;
+}
+
+.email-body {
+    margin-left: 1rem;
+    margin-right: 5rem;
+
+    /* min-width: 31.25rem; */
+}
+
+.email-date {
+    position: absolute;
+    right: 0.625rem;
+    margin-left: 5rem;
+    text-align: right;
+    z-index: 5;
+}
+
+/* Dynamic class for preview: */
+.starred {
+    color: gold
+}
+
+.unreadedmail {
+    font-weight: bold;
+}
+
+.section-readed {
+    background-color: #f5f7f7;
+
+}
+
+.section-marked {
+
+    background-color: #c2dbff;
+}
+
+.star:hover {
+    opacity: 1;
+}
+
+@media (max-width:580px){
+    .email-date{
+        bottom: 0;
+    }
+}

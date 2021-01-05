@@ -1,0 +1,43 @@
+@import "./add-book.css";
+@import "./book-details.css";
+@import "./book-filter.css";
+@import "./book-list.css";
+@import "./input-range-style.css";
+
+.book-details button {
+    border: 1px solid #ffc107;
+    cursor: pointer;
+    color: #212529;
+    background-color: #ffc107;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    margin: 1rem;
+}
+.book-app button {
+    border: 1px solid #ffc107;
+    cursor: pointer;
+    color: #212529;
+    background-color: #ffc107;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    
+  }
+  .book-app button:hover {
+    background-color: #ffd761;
+  }
+  .book-app  button:focus {
+    outline: none;
+  }
+  .add-book button{
+    border: 1px solid #ffc107;
+    cursor: pointer;
+    color: #212529;
+    background-color: #ffc107;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    margin: 0.3125rem;
+
+  }
